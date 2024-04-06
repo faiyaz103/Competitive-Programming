@@ -8,3 +8,7 @@
 1. [Count Primes](https://leetcode.com/problems/count-primes/description/)
 2. [A conjecture of Paul Erdős](https://www.spoj.com/problems/HS08PAUL/)
 3. [Primal Fear](https://www.spoj.com/problems/VECTAR8/)
+4. [Primes Triangle (i)](https://www.spoj.com/problems/PTRI/)
+5. [Sherlock and his girlfriend](https://codeforces.com/contest/776/problem/B)
+6. [Namit in Trouble](https://www.spoj.com/problems/NGIRL/)
+7. [Bazinga!](https://www.spoj.com/problems/DCEPC505/)
