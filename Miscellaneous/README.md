@@ -20,3 +20,5 @@ cout<<fixed<<setprecision(3)<<num;
 ```
 2.718
 ```
+## next_permutation and prev_permutation in C++
+[Resource](https://www.geeksforgeeks.org/stdnext_permutation-prev_permutation-c/)
