@@ -24,4 +24,9 @@ cout<<fixed<<setprecision(3)<<num;
 [GeeksforGeeks](https://www.geeksforgeeks.org/stdnext_permutation-prev_permutation-c/)
 
 ## Logarithms, Base Conversion, Memoization
+### Logarithms and Digits
 ![Logarithms and Digits](https://github.com/faiyaz103/Competitive-Programming/blob/main/resources/log_and_digits.jpg)
+### Base Conversion
+![Base Conversion](https://github.com/faiyaz103/Competitive-Programming/blob/main/resources/base_conv_log.jpg)
+###  Memoization Basic
+[GeeksforGeeks](https://www.geeksforgeeks.org/memoization-1d-2d-and-3d/)
