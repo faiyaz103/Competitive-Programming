@@ -32,12 +32,10 @@ cout<<fixed<<setprecision(3)<<num;
 [GeeksforGeeks](https://www.geeksforgeeks.org/memoization-1d-2d-and-3d/)
 
 ## upper_bound and lower_bound for Vector
-1.
 ```cpp
 lower_bound (Iterator first, Iterator last, const val);
 ```
 lower_bound returns an iterator pointing to the first element in the range [first,last) which has a value not less than ‘val’  and if the value is not present in the vector then it returns the end iterator.
-2.
 ```cpp
 upper_bound (Iterator first, Iterator last, const val);
 ```
