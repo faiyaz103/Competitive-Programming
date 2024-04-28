@@ -21,7 +21,7 @@ cout<<fixed<<setprecision(3)<<num;
 2.718
 ```
 ## next_permutation and prev_permutation in C++
-[Resource](https://www.geeksforgeeks.org/stdnext_permutation-prev_permutation-c/)
+[GeeksforGeeks](https://www.geeksforgeeks.org/stdnext_permutation-prev_permutation-c/)
 
 ## Logarithms, Base Conversion, Memoization
 ![Logarithms and Digits](https://github.com/faiyaz103/Competitive-Programming/blob/main/resources/log_and_digits.jpg)
