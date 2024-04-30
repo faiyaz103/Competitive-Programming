@@ -86,7 +86,6 @@ int main ()
 ```
 
 # Modulus of Negative Numbers
-### When Dividend is negative and Divisor is positive
 1. Truncated division: In C/C++, truncate division is used to determine the remainder.
 ```cpp
 #include<bits/stdc++.h>
