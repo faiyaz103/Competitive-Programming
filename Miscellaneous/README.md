@@ -1,9 +1,9 @@
-## Taking blank line as input
+# Taking blank line as input
 ```cpp
 string bl;
 getline(cin,bl);
 ```
-## SetPrecision Function
+# SetPrecision Function
 ### Significant Figures
 ```cpp
 float num=2.71828;
@@ -20,10 +20,10 @@ cout<<fixed<<setprecision(3)<<num;
 ```
 2.718
 ```
-## next_permutation and prev_permutation in C++
+# next_permutation and prev_permutation in C++
 [GeeksforGeeks](https://www.geeksforgeeks.org/stdnext_permutation-prev_permutation-c/)
 
-## Logarithms, Base Conversion, Memoization
+# Logarithms, Base Conversion, Memoization
 ### Logarithms and Digits
 ![Logarithms and Digits](https://github.com/faiyaz103/Competitive-Programming/blob/main/resources/log_and_digits.jpg)
 ### Base Conversion
@@ -31,7 +31,7 @@ cout<<fixed<<setprecision(3)<<num;
 ###  Memoization Basic
 [GeeksforGeeks](https://www.geeksforgeeks.org/memoization-1d-2d-and-3d/)
 
-## upper_bound and lower_bound for Vector
+# upper_bound and lower_bound for Vector
 ```cpp
 lower_bound (Iterator first, Iterator last, const val);
 ```
@@ -83,4 +83,53 @@ int main ()
 2
 7
 4
+```
+
+# Modulus of Negative Numbers
+### When Dividend is negative and Divisor is positive
+1. Truncated division: In C/C++, truncate division is used to determine the remainder.
+```cpp
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    
+    long long n=-7, mod=5;
+    
+    long long ans=n%mod;
+    
+    cout<<ans<<endl;
+    
+    return 0;
+}
+```
+```
+-2
+```
+2. Floored division: Quotient is determined by the floor division of Dividend and Divisor. It rounds off the quotient to the nearest smallest integer. So remainder can be computed from the following expression:
+```
+=> -7 % 5 = -7 – 5 *( floor(-7/5) )
+=  -7 – 5*( floor(-1.4) )
+=  -7 – 5*( -2)
+= -7+10
+= 3
+```
+In programming languages which uses truncate divison to find the remainder, we always find remainder as (a%b + b)%b (add quotient to remainder and again take remainder) to avoid negative remainder and get the correct result.
+```cpp
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    
+    long long n=-7, mod=5;
+    
+    long long ans=((n%mod)+mod)%mod;
+    
+    cout<<ans<<endl;
+    
+    return 0;
+}
+```
+```
+3
 ```
