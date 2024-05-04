@@ -132,3 +132,8 @@ int main(){
 ```
 3
 ```
+
+# Ceil Division Formula
+```
+ceil(a/b) = (a+b-1)/b
+```
