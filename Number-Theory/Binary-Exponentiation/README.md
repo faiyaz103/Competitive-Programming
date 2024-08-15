@@ -10,8 +10,8 @@ power = power - 1
 base = base X base
 power = power / 2
 ```
+4. Stop when power=0
 ![Binary Exponentiation](https://github.com/faiyaz103/Competitive-Programming/blob/main/resources/bin_ex.png)
-
 
 ## List of important problems
 1. [Leading and Trailing](https://onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=1970)
