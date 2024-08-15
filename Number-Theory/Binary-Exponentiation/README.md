@@ -1,4 +1,4 @@
-#Binary Exponentiation
+# Binary Exponentiation
 1. Take res = 1
 2. If power is odd:
 ```
