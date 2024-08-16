@@ -15,3 +15,5 @@ That means, a = gx, b = gy
 => a-b = g(x-y) and b-a = g(y-x)
 Here, g is the highest common factor
 ```
+# Important Problems
+1. [GCD Queries](https://vjudge.net/problem/CodeChef-GCDQ)
