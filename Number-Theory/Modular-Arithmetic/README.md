@@ -67,3 +67,15 @@ if a % N = b % N = r
 = (1 + 2 + 3 + 4 + 5) % 9
 = 6
 ```
+
+## Basic Combinatorics
+nCr = n!/r! * (n-r)! 
+- Calculate factorial for all 1 to n in an array.
+- Also calculate the array for multiplicative inverse factorial in reverse order
+    - We got n!
+    - Now, Calculate multiplicative inverse of n!.
+    - From there we can easily calculate the rest.
+    - Multiplicative inverse of (n-1)! = n * inverse of n!
+    - Multiplicative inverse of (n-2)! = (n-1) * inverse of (n-1)!
+    - and so on
+- So ncr becomse n! * mul. inverse(r!) * mul. inverse((n-r)!) under mod M
